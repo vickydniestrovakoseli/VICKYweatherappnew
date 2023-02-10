@@ -89,7 +89,10 @@ function displayWeather(response) {
     document.querySelector("#situation").innerHTML = "SUNNY";
     document
       .querySelector("#main-image")
-      .setAttribute("src", "img/img_01_sunny.png");
+      .setAttribute(
+        "src",
+        "https://toppng.com/uploads/preview/sunny-weather-icon-115330492027cvmqyhy8b.png"
+      );
     document.querySelector("#background").classList.add("containerSunny");
     document
       .querySelector("#background")
