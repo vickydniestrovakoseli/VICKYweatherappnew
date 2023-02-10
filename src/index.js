@@ -137,7 +137,10 @@ function displayWeather(response) {
     document.querySelector("#situation").innerHTML = "SMOKEY";
     document
       .querySelector("#main-image")
-      .setAttribute("src", "img/img_02_cloudy.png");
+      .setAttribute(
+        "src",
+        "https://static.vecteezy.com/system/resources/previews/005/362/115/original/smiling-cloud-kawaii-character-blue-object-of-sky-symbol-of-cloudy-weather-mascot-of-weather-forecast-cute-cartoon-illustration-vector.jpg"
+      );
     document.querySelector("#background").classList.add("containerCloudy");
     document
       .querySelector("#background")
