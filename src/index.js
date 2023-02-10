@@ -122,7 +122,10 @@ function displayWeather(response) {
     document.querySelector("#situation").innerHTML = "MISTY";
     document
       .querySelector("#main-image")
-      .setAttribute("src", "img/img_02_cloudy.png");
+      .setAttribute(
+        "src",
+        "https://www.google.com/search?q=cloudy+weather+transparent+background&tbm=isch&ved=2ahUKEwirqJLw84v9AhW6hv0HHZYtCcsQ2-cCegQIABAA&oq=cloudy+weather+transparent+background&gs_lcp=CgNpbWcQAzIGCAAQBxAeOgQIIxAnUJ8CWPYyYN01aABwAHgAgAGIAYgB-w6SAQQwLjE3mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=D7jmY-vkBrqN9u8Pltuk2Aw&bih=629&biw=1039&client=safari#imgrc=U2YhhrJRXOOdUM"
+      );
     document.querySelector("#background").classList.add("containerCloudy");
     document
       .querySelector("#background")
